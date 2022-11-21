@@ -8,6 +8,11 @@ body {
     color: black;
 }
 
+.Brandname {
+    display: flex;
+    justify-content: center;
+}
+
 .menu {
     margin: 16px 16px;
 }
