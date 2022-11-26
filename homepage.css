@@ -1,0 +1,234 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fffaf4;
+}
+
+.brand {
+    color: black;
+    
+}
+
+.half-selection {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Brandname {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 44px;
+}
+
+.menu {
+    margin: 16px 16px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-button {
+    background-color: #fffaf4;
+    color: #2f2b2a;
+    border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #d3905f; 
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px 20px 80px;
+}
+
+.thumbnail {
+    background-color: #997552;
+    background-image: url("https://img.freepik.com/fotos-premium/cafe-molido-granos-cafe-surtido-variedades-cafe-sobre-fondo-negro-vista-superior-espacio-libre-su-texto_187166-33741.jpg?w=2000") ;
+    padding: 40px 0px;
+    width: 100%;
+} 
+     
+.introduction {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 60%;
+    border: solid white;
+    padding: 20px 24px;
+    width: 420px;
+    background-color: rgba(128, 128, 128, 0.593);
+}
+
+.sub-introduction {
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+
+#button1 {
+    margin: 0px auto;
+    display: block;
+    color: white;
+    background-color: rgba(59, 44, 44, 0.545);
+    border-color: white;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+.size-32 {
+    font-size: 32px;
+}
+.size-28 {
+    font-size: 28px;
+}
+
+.main-headline {
+    margin-top: 10px;
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-headline {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.article {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cup-of-coffee1 {
+    width: 380px;
+    height: 380px;
+    margin: 10px 20px;
+    border-radius: 20%;
+}
+
+.sub-article {
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 20px
+}
+
+.title {
+    font-size: 28px;
+}
+
+.content {
+    font-size: 20px;
+    margin: 12px 0px;
+}
+
+.address {
+    font-size: 24px;
+}
+
+.telephone {
+    font-size: 24px;
+}
+
+.list-list {
+    margin: 12px 0px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .introduction {
+        margin-left: 48%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .introduction {
+        margin: auto;
+    }
+    .telephone {
+        font-size: 20px;
+    }
+    .address {
+        font-size: 20px;
+    }
+    .menu-button {
+        font-size: 16px;
+    }
+    .article {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .introduction {
+        margin: auto;
+        border: solid white;
+        padding: 20px 24px;
+        width: 320px;
+        font-size: 16px;
+    }
+    .menu-button {
+        font-size: 12px;
+    }
+    .size-32 {
+        font-size: 24px;
+    }
+    .size-28 {
+        font-size: 20px;
+    }
+    .main-headline {
+        margin-top: 10px;
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+    }
+    .sub-headline {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .article {
+        display: block;
+    }
+    .sub-article {
+        padding: 16px 4px;
+    }
+    .telephone {
+        font-size: 12px;
+    }
+    .address {
+        font-size: 12px;
+    }
+    .menu {
+        margin: 16px 0px;
+    }
+    .container {
+        padding: 0px;
+    }
+    #Brandname {
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 36px;
+    }
+    #cup-of-coffee1 {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .article {
+        display: block;
+    }
+}
+
